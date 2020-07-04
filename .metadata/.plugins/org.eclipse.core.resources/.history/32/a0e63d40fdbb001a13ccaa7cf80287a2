@@ -1,0 +1,5 @@
+package com.kh.chap02_set.part2_treeSet.model.vo;
+
+public class Person {
+
+}

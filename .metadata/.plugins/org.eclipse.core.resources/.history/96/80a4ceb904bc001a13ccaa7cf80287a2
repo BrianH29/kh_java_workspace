@@ -1,0 +1,5 @@
+package com.kh.chap03_map.part01_hashMap.mode.vo;
+
+public class Snack {
+
+}

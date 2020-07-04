@@ -1,0 +1,23 @@
+package com.kh.array;
+
+public class A_Array {
+	
+	// 배열 : 같은 자료형의 값들을 하나의 공간에 담을 수 있는 개년
+	// 		저장된 값마다 인덱스가 지정됨 (인덱스는 0부터 시작됨)
+	
+	public void method1() {
+		// 배열을 왜 쓰는지
+		int num1 = 0;
+		int num2 = 1;
+		int num3 = 2;
+		
+		
+		//출력하고자 할때도
+		System.out.println(num1);
+		System.out.println(num2);
+		System.out.println(num3);
+		System.out.println(num4);
+		
+	}
+
+}

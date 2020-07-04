@@ -1,0 +1,21 @@
+package com.kh.chap01_list.part01_basic.model.vo;
+
+public class Music {
+
+	private String title; 
+	private String artist;
+	
+	//constructor
+	public Music() {
+		
+	}
+	//매개변수생성자 parameter
+
+	
+	//setter/getter
+
+	
+	//toString메소드 
+	
+	
+}

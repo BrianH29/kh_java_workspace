@@ -1,0 +1,32 @@
+package com.kh.chap02_set.part1.hashSet.run;
+
+import java.util.HashSet;
+
+import com.kh.chap02_set.part1.hashSet.model.vo.Person;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		HashSet hs = new HashSet(); 
+		
+		hs.add("반갑습니다.");
+		hs.add(1); // int형 -- AutoBoxing --> Integer --> <UpCasting> --> Object
+		hs.add(new String("반갑습니다."));
+		hs.add(new String("안녕하세요"));
+		hs.add(new String("여러분"));
+		
+		System.out.println(hs);	// 순서유지X, 중복저장X(중복제거됨)
+		
+		HashSet hs2 = new HashSet(); 
+		hs2.add(new Person("공유", 40, 100));
+		hs2.add(new Person("김말똥", 26, 40));
+		hs2.add(new Person("홍길동", 24, 20));
+		hs2.add(new Person("공유", 40, 100));
+		
+		System.out.println("==================");
+		System.out.println(hs2);
+		
+	}
+
+}

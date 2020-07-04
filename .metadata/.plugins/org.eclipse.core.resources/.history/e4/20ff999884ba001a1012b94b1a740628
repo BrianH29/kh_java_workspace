@@ -1,0 +1,10 @@
+package com.kh.test1;
+
+public class Run {
+public static void main(String[] args) {
+	
+	test1_1 a = new test1_1();
+	a.fileSave();
+	
+}
+}

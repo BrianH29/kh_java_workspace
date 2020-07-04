@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;08_Inheritance/src/com/kh/chap02_override&apos; to &apos;chap02_override.model.vo&apos;" description="Rename resource &apos;chap02_override&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/kh/chap02_override" name="chap02_override.model.vo" stamp="1592527008877" updateReferences="true"/>
+</session>

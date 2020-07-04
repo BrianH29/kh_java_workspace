@@ -1,0 +1,12 @@
+package com.kh.chap02_set.part1.hashSet.model.vo;
+
+public class Person {
+
+	private String name;
+	private int	age;
+	private int score;
+
+	public Person() {}
+	
+	
+}

@@ -1,0 +1,46 @@
+package com.kh.chap03_map.part01_hashMap.run;
+
+import java.util.HashMap;
+
+import com.kh.chap03_map.part01_hashMap.mode.vo.Snack;
+
+public class Run {
+
+	public static void main(String args[]) {
+		
+		HashMap hm = new HashMap();
+		
+		
+		//Map은 기존의 List, Set과는 다른 계열
+		
+		// 1.put(K key, V value)
+		hm.put("다이제", new Snack("초코맛", 1500));
+		hm.put("칸초", new Snack("단맛", 600));
+		hm.put("새우깡", new Snack("짠맛", 500));
+		hm.put("포테이토침", new Snack("짠맛", 500));
+		
+		System.out.println(hm);	// 순서유지X, value값이 중복되도 키값이 중복되지 않았기 떄문에 잘 저장 
+								// 키값가지고 중복 검사하는 거임. 
+		
+		hm.put("새우깡",new Snack("매운맛",700));
+		
+		System.out.println(hm);	// 키값이 중복되는 객체 추가하는 순간 마지막 value 값으로 덮어씌어짐
+		
+		// 2. get(K key) : V 
+		Snack s = (Snack)hm.get("다이제");
+		System.out.println(s);
+		
+		// 3. size() : 
+		System.out.println("갯수: " + hm.size()); 
+		
+		// 4. replace(K key, V value)
+		hm.replace("포테이토침", new Snack("겁나짠맛", 1000));
+		System.out.println(hm);
+		
+		// 5. remove(Object key)
+		hm.remove("포테이토침");
+		System.out.println(hm);
+		
+		
+	}
+}

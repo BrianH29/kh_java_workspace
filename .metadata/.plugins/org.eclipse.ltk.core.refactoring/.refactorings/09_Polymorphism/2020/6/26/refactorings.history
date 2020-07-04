@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;09_Polymorphism/src/com/kh/chap02_abstractAndInterface/part01_abstract/model/vo/Football.java&apos; to &apos;FootBall.java&apos;" description="Rename resource &apos;Football.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/kh/chap02_abstractAndInterface/part01_abstract/model/vo/Football.java" name="FootBall.java" stamp="1592796246388" updateReferences="true"/>
+</session>

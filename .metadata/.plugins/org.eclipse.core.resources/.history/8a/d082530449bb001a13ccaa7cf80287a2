@@ -1,0 +1,9 @@
+package com.kh.chap01_list.part02_mvc.model.sort;
+
+import java.util.Comparator;
+
+import com.kh.chap01_list.part02_mvc.model.vo.Music;
+
+public class TitleAsc implements Comparator<Music>{
+
+}

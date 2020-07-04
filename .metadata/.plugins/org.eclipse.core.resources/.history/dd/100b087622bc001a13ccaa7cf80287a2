@@ -1,0 +1,35 @@
+package com.kh.chap03_map.part02.properties.run;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Run2 {
+
+	public static void main(String[] args) {
+		
+		Properties prop = new Properties();	// 빈상태 
+		
+		try {
+			// 5. load(InputStream is) : 파일에 있는 데이터들을 불러와서 prop에 담기
+			prop.load(new FileInputStream("test.properties"));
+			
+			System.out.println(prop);
+			
+			//6. loadFromXML(InputStream is)
+			prop.loadFromXML(new FileInputStream("test.xml"));
+			System.out.println(prop);
+			
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+	
+	
+
+}

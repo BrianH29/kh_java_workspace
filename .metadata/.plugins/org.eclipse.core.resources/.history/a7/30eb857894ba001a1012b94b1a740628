@@ -1,0 +1,57 @@
+package com.kh.chap01_list.part02_mvc.controller;
+
+import java.util.ArrayList;
+
+import com.kh.chap01_list.part02_mvc.model.vo.Music;
+
+// controller : 사용자가 요청한 기능을 처리하는 역할
+public class MusicController {
+
+
+	private ArrayList<Music> list = new ArrayList<>(); 
+	
+	
+	public void insertMusic(String title, String artist) {
+		list.add(new Music(title, artist)); 
+		
+	}
+	
+	public ArrayList<Music> selectList() {
+		return list; // view에서 호출 해야하기 때문에 요기에는 리스트만 전달 해주기. 
+	}
+	
+	
+	public ArrayList<Music> searchMusic(String keyword) {
+		
+		// list.get(0).getTitle() keyword 포함되어있나요?
+		// list.get(1).getTitle() keyword 포함되어있나요?
+		// ... 마지막 인덱스 
+		
+		//.equals() : 일치하는지
+		//.contains() : 포함되어있는지 
+		
+		//검색한 결과(키워드가 포함되어있는 Music 객체들)를 보관할 리스트 
+		// view로 보내기위해 여러 검색어를 담을 수 있는 배열 객체를 하나 생성해서 보내는것이다. 
+		ArrayList<Music> searchList = new ArrayList<>();
+		
+		for(int i=0; i<list.size();i++) {
+			if(list.get(i).getTitle().contains(keyword)) {
+				searchList.add(list.get(i));
+			}
+		}
+		return searchList; 
+	}
+	
+	public void deleteMusic(String title) {
+		
+	}
+}
+
+
+
+
+
+
+
+
+

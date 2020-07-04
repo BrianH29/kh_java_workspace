@@ -1,0 +1,26 @@
+package com.kh.chap01_list.part02_mvc.controller;
+
+import java.util.ArrayList;
+
+import com.kh.chap01_list.part02_mvc.model.vo.Music;
+
+// controller : 사용자가 요청한 기능을 처리하는 역할
+public class MusicController {
+
+
+	private ArrayList<Music> list = new ArrayList<>(); 
+	
+	
+	public void insertMusic(String title, String artist) {
+		
+	}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+package com.kh.chap03_map.part01_hashMap.mode.vo;
+
+public class Snack {
+
+	private String flavor;
+	private int calory;
+
+	private Snack() {
+	}
+
+	private Snack(String flavor, int calory) {
+		this.flavor = flavor;
+		this.calory = calory;
+	}
+}

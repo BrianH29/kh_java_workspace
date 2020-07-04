@@ -1,0 +1,24 @@
+package com.kh.chap03_map.part01_hashMap.run;
+
+import java.util.HashMap;
+
+import com.kh.chap03_map.part01_hashMap.mode.vo.Snack;
+
+public class Run {
+
+	public static void main(String args[]) {
+		
+		HashMap hm = new HashMap();
+		
+		
+		//MapÀº ±âÁ¸ÀÇ List, Set°ú´Â ´Ù¸¥ °è¿­
+		
+		// 1.put(K key, V value)
+		hm.put("´ÙÀÌÁ¦", new Snack("ÃÊÄÚ¸À", 1500));
+		hm.put("Ä­ÃÊ", new Snack("´Ü¸À", 600));
+		hm.put("»õ¿ì±ø", new Snack("Â§¸À", 500));
+		hm.put("Æ÷Å×ÀÌÅäÄ§", new Snack("Â§¸À", 500));
+		
+		
+	}
+}

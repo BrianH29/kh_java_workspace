@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;04_Array/src/com/kh/array/B_ArraryCopy.java&apos; to &apos;B_ArrayCopy.java&apos;" description="Rename resource &apos;B_ArraryCopy.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/kh/array/B_ArraryCopy.java" name="B_ArrayCopy.java" stamp="1591578854738" updateReferences="true"/>
+</session>

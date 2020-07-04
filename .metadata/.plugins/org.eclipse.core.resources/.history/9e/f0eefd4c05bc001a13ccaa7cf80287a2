@@ -1,0 +1,11 @@
+package com.kh.chap03_map.part01_hashMap.run;
+
+import java.util.HashMap;
+
+public class Run {
+
+	public static void main(String args[]) {
+		
+		HashMap hm = new HashMap();
+	}
+}

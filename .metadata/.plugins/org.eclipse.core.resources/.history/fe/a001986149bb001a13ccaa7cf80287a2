@@ -1,0 +1,16 @@
+package com.kh.chap01_list.part02_mvc.model.sort;
+
+import java.util.Comparator;
+
+import com.kh.chap01_list.part02_mvc.model.vo.Music;
+
+public class TitleAsc implements Comparator<Music>{
+
+	@Override
+	public int compare(Music o1, Music o2) {
+		// 곡명 오름차순
+		
+		return 0;
+	}
+
+}

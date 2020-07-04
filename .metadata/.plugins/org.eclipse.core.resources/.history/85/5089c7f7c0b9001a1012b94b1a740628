@@ -1,0 +1,17 @@
+package com.kh.chap01_list.part02_mvc.view;
+
+import java.util.Scanner;
+
+import com.kh.chap01_list.part02_mvc.controller.MusicController;
+
+// view : 시각적인 요소(출력 및 입력) 
+public class MusicMenu {
+
+	private Scanner sc = new Scanner(System.in); 
+	private MusicController mc = new MusicController();
+	
+	
+	
+	
+	
+}

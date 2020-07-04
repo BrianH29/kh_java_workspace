@@ -1,0 +1,20 @@
+package com.kh.chap03_map.part02.properties.run;
+
+import java.util.Properties;
+
+public class Run {
+
+	public static void main(String[] args) {
+		
+		// Properties : Map 계열이다. 	=> key, value세트로 저장
+		// 단, HashMap과 다른점은 키값과 벨류값이 모두 String으로 저장
+		
+		Properties prop = new Properties(); 
+		
+		// Map계열이기 때문에 put() 사용가능하긴 함..
+		prop.put("다이제", new Snack("초코맛", 1500));
+		
+
+	}
+
+}
